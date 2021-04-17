@@ -13,7 +13,7 @@ contract('Deployer', function(accounts) {
         await deployer.deploy("deployerInputTestrpc.json", 20, web3.currentProvider.host, false, "WBTC");
     });
 
-    it("test WXRP deployer script on private net.", async function () {
-        await deployer.deploy("deployerInputTestrpc.json", 20, web3.currentProvider.host, false, "WXRP");
+    it("test WDOGE deployer script on private net.", async function () {
+        await deployer.deploy("deployerInputTestrpc.json", 20, web3.currentProvider.host, false, "WDOGE");
     });
 });
